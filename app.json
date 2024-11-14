@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Attendance_App",
-    "slug": "Attendance_App",
+    "name": "Photogram_App",
+    "slug": "Photogram_App",
+    "scheme": "Photogram_App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
